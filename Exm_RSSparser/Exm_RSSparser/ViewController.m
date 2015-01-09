@@ -76,6 +76,11 @@
     UILabel *pubDateLabel = (UILabel*) [myCell viewWithTag:101];
     pubDateLabel.text = [[feeds objectAtIndex:indexPath.row] objectForKey:@"pubDate"];
 
+    
+    // http://s.appleinsider.ru/2015/01/File-Sale.jpg  imag link
+    
+    
+    
     return myCell;
 }
 

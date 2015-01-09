@@ -19,7 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSURL *myURL = [[NSURL alloc] initWithString: [self.url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+//    NSURL *myURL = [[NSURL alloc] initWithString: [self.url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+    NSURL *myURL = [NSURL URLWithString:[self.url stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]];
   //  NSURL *myURL = [NSURL URLWithString: [self.url stringByAddingPercentEscapesUsingEncoding:
    //                                       NSUTF8StringEncoding]];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:myURL];
