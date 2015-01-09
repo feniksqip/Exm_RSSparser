@@ -77,7 +77,7 @@
     pubDateLabel.text = [[feeds objectAtIndex:indexPath.row] objectForKey:@"pubDate"];
 
     
-    // http://s.appleinsider.ru/2015/01/File-Sale.jpg
+    // http://s.appleinsider.ru/2015/01/File-Sale.jpg  imag link
     
     
     
