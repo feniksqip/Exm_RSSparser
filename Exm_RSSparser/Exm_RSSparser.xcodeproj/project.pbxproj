@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841826F21A5FE7D8001FA975 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841826F11A5FE7D8001FA975 /* DetailViewController.m */; };
 		84AB48701A5EAC6D007C18D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB486F1A5EAC6D007C18D5 /* main.m */; };
 		84AB48731A5EAC6D007C18D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB48721A5EAC6D007C18D5 /* AppDelegate.m */; };
 		84AB48761A5EAC6D007C18D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB48751A5EAC6D007C18D5 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841826F01A5FE7D8001FA975 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		841826F11A5FE7D8001FA975 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		84AB486A1A5EAC6D007C18D5 /* Exm_RSSparser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exm_RSSparser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AB486E1A5EAC6D007C18D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AB486F1A5EAC6D007C18D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				84AB48721A5EAC6D007C18D5 /* AppDelegate.m */,
 				84AB48741A5EAC6D007C18D5 /* ViewController.h */,
 				84AB48751A5EAC6D007C18D5 /* ViewController.m */,
+				841826F01A5FE7D8001FA975 /* DetailViewController.h */,
+				841826F11A5FE7D8001FA975 /* DetailViewController.m */,
 				84AB48771A5EAC6D007C18D5 /* Main.storyboard */,
 				84AB487A1A5EAC6D007C18D5 /* Images.xcassets */,
 				84AB487C1A5EAC6D007C18D5 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				84AB48761A5EAC6D007C18D5 /* ViewController.m in Sources */,
 				84AB48731A5EAC6D007C18D5 /* AppDelegate.m in Sources */,
 				84AB48701A5EAC6D007C18D5 /* main.m in Sources */,
+				841826F21A5FE7D8001FA975 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				84AB488F1A5EAC6D007C18D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AB48901A5EAC6D007C18D5 /* Build configuration list for PBXNativeTarget "Exm_RSSparserTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				84AB48921A5EAC6D007C18D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
